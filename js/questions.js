@@ -294,7 +294,7 @@ const quizQuestions = [
     answer: '.(nokta)',
   },
   {
-    id: '30',
+    id: 30,
     question:
       "CSS'de önceki satırdaki hizalama etkisinden kurtulmak ve blokları bir sonraki satıra taşımak için kullanılan kod hangisidir?",
     choices: ['align:center;', 'margin:auto;', 'clear:both;', 'float:left;'],
@@ -394,10 +394,10 @@ const quizQuestions = [
     choices: [
       'kalınlık,çizgi şekli, renk',
       'renk,kalınlık,çizgi şekli',
-      'kalınlık,çizgi şekli,renk',
+      'kalınlık,renk,çizgi şekli',
       'çizgi şekli,kalınlık,renk',
     ],
-    answer: 'kalınlık, çizgi şekli, renk',
+    answer: 'kalınlık,çizgi şekli, renk',
   },
   {
     id: 41,
