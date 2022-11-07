@@ -101,14 +101,14 @@ const quizQuestions = [
   {
     id: 10,
     question:
-      'CSS (Cascading Style Sheet) ile aşağıdakilerden hangisi yapılamaz?',
+      'Sayfanın başlığını belirtir. Burada yazılanlar browser üst tarafında browser adıyla beraber gösterilir. Bu açıklama hangi etikete aittir?',
     choices: [
-      'Bir tablonun border’ının rengi kırımızı yapılması.',
-      'Bir sayfanın yeniden yüklenmesi.',
-      'Bir link’in üzerine gelindiğinde link’in renginin değiştirilmesi',
-      'Bir link alt çizgisinin kaldırılması',
+      'title',
+      'a href',
+      'body',
+      'html',
     ],
-    answer: 'Bir sayfanın yeniden yüklenmesi.',
+    answer: 'title',
   },
   {
     id: 11,
@@ -267,12 +267,12 @@ const quizQuestions = [
     question:
       'Zemin resminin yatay olarak gösterilmesi için kullanılan CSS ifadesi hangisidir?',
     choices: [
-      'Background-image:norepeat',
-      'Background-image:repeat-x',
-      'Background-image:repeat-y',
-      'Background-image:repeat',
+      'background-image:norepeat',
+      'background-image:repeat-x',
+      'background-image:repeat-y',
+      'background-image:repeat',
     ],
-    answer: 'Background-image:repeat-x',
+    answer: 'background-image:repeat-x',
   },
   {
     id: 28,
@@ -309,14 +309,14 @@ const quizQuestions = [
   {
     id: 32,
     question:
-      ' Bir web sayfasında bir resmi istediğimiz yere yerleştirmek için kullanılan Css komutu hangisidir?',
+      'Aşağıdakilerden hangisi CSS selector(seçici) olarak kullanılır?',
     choices: [
-      'background-image',
-      'background-position',
-      'background-attachment',
-      'background-repeat',
+      'HTML kod elementi',
+      'class adı',
+      'id adı',
+      'hepsi',
     ],
-    answer: 'background-position',
+    answer: 'hepsi',
   },
   {
     id: 33,
@@ -683,14 +683,14 @@ const quizQuestions = [
   {
     id: 70,
     question:
-      'font-weight: bold; font-family: verdana, sans-serif; font-size: 12px; line-height: 15px; Yukarıda verilen font özelliklerinin kısaltılmış hali aşağıdakilerden hangisidir?',
+      'Harici CSS style sheets dosyaları hangi uzantılı dosyada saklanır?',
     choices: [
-      'font: bold 12px/15px verdana, sans-serif;',
-      'font: bold 15px/12px verdana, sans-serif;',
-      'font: 12px/15px bold verdana, sans-serif;',
-      'font: verdana, sans-serif 12px/15px bold',
+      '.html',
+      '.txt',
+      '.css',
+      '.txtcss',
     ],
-    answer: 'font: bold 12px/15px verdana, sans-serif;',
+    answer: '.css',
   },
   {
     id: 71,
@@ -722,20 +722,14 @@ const quizQuestions = [
   },
   {
     id: 75,
-    question: `
-font-weight: bold;
-font-family: verdana, sans-serif;
-font-size: 12px;
-line-height: 15px;
-
-Verilen font özelliklerinin kısaltılmış hali aşağıdakilerden hangisidir?`,
+    question: "html ve css arasındaki fark nedir?",
     choices: [
-      'font: bold 12px/15px verdana, sans-serif;',
-      'font: bold 15px/12px verdana, sans-serif;',
-      'font: 12px/15px bold verdana, sans-serif;',
-      'font: verdana, sans-serif 12px/15px bold;',
+      'html dosya transferi yapar, css dosya düzenini sağlar',
+      'html içerik düzenler, css stil-görünüş düzenleme amaçlıdır',
+      'html web dosyaları, css resim dosyaları içindir',
+      'html stil bilgisi içerir, css içerik bilgisi içerir',
     ],
-    answer: 'font: bold 12px/15px verdana, sans-serif;',
+    answer: 'html içerik düzenler, css stil-görünüş düzenleme amaçlıdır',
   },
   {
     id: 76,
@@ -782,14 +776,14 @@ Verilen font özelliklerinin kısaltılmış hali aşağıdakilerden hangisidir?
   {
     id: 80,
     question:
-      'Html’de onay kutusu oluşturmak için kullanılan etiket hangisidir ?',
+      'Hangisi "menu" adında bir class için selector(seçici)dir?',
     choices: [
-      '< checkbox>',
-      '< input=checkbox>',
-      "< input type='checkbox'>",
-      '< input checkbox>',
+      'menu',
+      '#menu',
+      ".menu",
+      '>menu',
     ],
-    answer: "< input type='checkbox'>",
+    answer:  ".menu",
   },
   {
     id: 81,
