@@ -4,7 +4,7 @@ const quizQuestions = [
     question:
       'CSS (Cascading Style Sheet) ile aşağıdakilerden hangisi yapılamaz?',
     choices: [
-      'Bir tablonun border’ının rengi kırımızı yapılması',
+      'Bir tablonun border’ının rengi kırmızı yapılması',
       'Bir yazının fontunun Arial yapılması',
       'Bir link alt çizgisinin kaldırılması',
       'Bir sayfanın yeniden yüklenmesi',
@@ -41,7 +41,7 @@ const quizQuestions = [
   {
     id: 4,
     question:
-      'Bir sayfadaki tüm linklerin alt çizgisini kaldırmak için aşağıdaki hangi style’li kullanmamız gerekir?',
+      'Bir sayfadaki tüm linklerin alt çizgisini kaldırmak için aşağıdaki hangi style’i kullanmamız gerekir?',
     choices: [
       'a{text-line:none}',
       'a{text-line:none}',
@@ -197,7 +197,7 @@ const quizQuestions = [
     question:
       'Aşağıdaki css kurallarından hangisi bir blok elementinin tüm kenarlarını 1px ebatında,kesik çizgi ve kırmızı yapmak için kullanılır?',
     choices: [
-      'border: 1px solid red;',
+      'border:1px solid red;',
       'border:1px double blue;',
       'border:1px dashed red;',
       'border:1px dotted red;',
@@ -347,7 +347,7 @@ const quizQuestions = [
     question:
       'Aşağıdaki css kurallarından hangisi bir blok elementinin tüm kenarlarını 1px ebatında,kesik çizgi ve kırmızı yapmak için kullanılır?',
     choices: [
-      'border: 1px solid red;',
+      'border:1px solid red;',
       'border:1px double blue;',
       'border:1px dashed red;',
       'border:1px dotted red;',
@@ -392,7 +392,7 @@ const quizQuestions = [
     question:
       'CSS kodlarıyla border(kenarlık) biçimlendirirken sıralaması nasıldır?',
     choices: [
-      'kalınlık, çizgi şekli, renk',
+      'kalınlık,çizgi şekli, renk',
       'renk,kalınlık,çizgi şekli',
       'kalınlık,çizgi şekli,renk',
       'çizgi şekli,kalınlık,renk',
@@ -480,7 +480,7 @@ const quizQuestions = [
       'Aşağıdaki flex kavramlarından hangisinin eşleşmesi doğru yapılmıştır?',
     choices: [
       'cross-start : Flex yapılmış birden çok eleman',
-      'main-axis : yatay eksen',
+      'main-axis : dikey eksen',
       'cross-axis : dikey eksen',
       'flex-item : yatay eksen',
     ],
@@ -728,7 +728,7 @@ font-family: verdana, sans-serif;
 font-size: 12px;
 line-height: 15px;
 
-Yukarıda verilen font özelliklerinin kısaltılmış hali aşağıdakilerden hangisidir?`,
+Verilen font özelliklerinin kısaltılmış hali aşağıdakilerden hangisidir?`,
     choices: [
       'font: bold 12px/15px verdana, sans-serif;',
       'font: bold 15px/12px verdana, sans-serif;',
